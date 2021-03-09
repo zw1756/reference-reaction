@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="//db.onlinewebfonts.com/c/554eb51fb39e99ff974dc72a87720400?family=ITC+Officina+Sans" rel="stylesheet" type="text/css"/> -->
+    <style>
+        #app{
+            width:35%;
+            margin:0 auto;
+            /* background:rgb(218, 238, 237); */
+            background:#fff;
+            height: 70rem;
+            overflow: hidden;
+            font-family: "ITC Officina Sans";
+        }   
+        #mytit{
+            font-weight: bold;
+            position: relative;
+            left: 37rem;
+            top: -35rem;
+        }
+        #myimg{
+            position: relative;
+            left: -2rem;
+            width: 18rem;
+            top: 4rem;
+        }
+        
+
+        #main{
+            width: 170%;
+            position: relative;
+            top: 4rem;
+            z-index: 99;
+            transform: rotate( 
+        71deg
+        );
+            left: -25rem;
+        }  
+        #header{
+            transform: rotate( 
+        -19deg
+        );
+            width: 135%;
+            position: relative;
+            top: 41%;
+            left: -10rem;
+            z-index: 90;
+        }
+
+        #hr_one,#hr_tow{
+         position: relative;
+         padding: 0;
+         
+        }
+        #hr_one div,#hr_tow div{
+            border-top: 2px solid #000;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #hr_one div:nth-child(1){
+            border-top: 3px solid #000;
+            width: 88%;
+        }
+        #hr_one div:nth-child(2){
+            width: 82%;
+        }
+        #hr_one div:nth-child(3){
+            width: 92%;
+        }
+        #hr_one div:nth-child(4){
+            border-top: 7px solid #000;
+            width: 75%;
+        }
+        #hr_one div:nth-child(5){
+            width: 75%;
+            position: relative;
+            left:20%;
+        }
+        #hr_one div:nth-child(6){
+            width: 65%;
+            position: relative;
+            left:28%;
+        }
+        #hr_one div:nth-child(7){
+            border-top: 5px solid #000;
+            width: 100%;
+        }
+
+        #hr_tow div{
+            padding: 0;
+        }
+
+        .none_border{
+            border:none !important;
+            margin-top:0px  !important;
+            margin-bottom:0px  !important;
+            padding: 0;
+        }
+        .none_mg{
+            margin-top:0px  !important;
+            margin-bottom:10px  !important;
+        }
+
+        #hr_tow_div{overflow: hidden;}
+        #hr_tow_div div:nth-child(1){
+            position: relative;
+            right: -2rem;
+        }
+        #hr_tow_div div:nth-child(2){
+            position: relative;
+            right: -1rem;
+        }
+        #hr_tow_div div:nth-child(3){
+            position: relative;
+            margin-bottom: 0px;
+        }
+
+        #tit_one{
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        #tit_one_detail{
+            color: #d42222;
+        }
+        #tit_one_detail p{
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        #tit_tow_detail{
+            color: #d42222;
+        }
+        #tit_tow_detail p{
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        #main div{
+            border-top: 2px solid #000;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="app">
+        
+        <!-- header -->
+        <div class="row" id="header">
+            <div class="col-md-5" id="hr_one">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="col-md-7" id="hr_tow">
+                <div class="col-md-12 none_border">
+                    <div class="col-md-3 none_border">
+                        <div  style="width: 80%;margin:0 auto;margin-top:32px;"></div>
+                        <div></div>
+                    </div>    
+                    <div class="col-md-5" style="text-align: center;"><span id="tit_one">Typography</span></div>    
+                    <div class="col-md-4" id="hr_tow_div">
+                        <div style="margin-top:10px;"></div>
+                        <div></div>
+                        <div></div>
+                    </div>    
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-offset-2 col-md-4 none_border">
+                        <div class="none_mg" style="width: 90%;"></div>
+                    </div>
+                    <div class="col-md-6 none_border">
+                        <div class="none_mg" style="border-top: 7px solid #000;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="none_mg"></div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-offset-2 col-md-4 none_border">
+                        <div class="none_mg" style="width: 90%;border-top: 7px solid #000;"></div>
+                    </div>
+                    <div class="col-md-6 none_border">
+                        <div class="none_mg"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="none_mg"></div>
+                </div>
+                <div class="col-md-12 none_border" id="tit_one_detail" style="position: relative;left:9rem;top:-1rem;">
+                    <p style="font-weight: bold;">Modern Masters of the 20th Century</p>
+                    <p>The Museum of Modern Art</p>
+                    <p>6/1/2012 - 7/19/2012</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="row" id="main">
+            <div class="col-md-6 none_border" >
+                <div class="col-md-12 none_border" id="tit_tow_detail">
+                    <p style="text-align: right;">Switzerland (5/9/1914 - 8/30/1996)</p>
+                    <p style="font-weight: bold;font-size: 25px;text-align: right;position: relative;left: 2rem;">Josef Muller-Brockmann</p>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div style="margin-bottom: 12px;border-top: 3px solid #000;" ></div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-4 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                    <div class="col-md-8 none_border">
+                        <div style="margin-bottom: 12px;width: 80%;margin-left: 1rem;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-5 none_border">
+                        <div style="margin-bottom: 12px;border-top: 5px solid #000;"></div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 none_border">
+                        <div style="margin-bottom: 12px;border-top: 3px solid #000;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-4 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                    <div class="col-md-7 col-md-offset-1 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div style="margin-bottom: 12px;width:90%;"></div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-8 none_border">
+                        <div style="margin-bottom: 12px;border-top: 18px solid #000;"></div>
+                    </div>
+                    <div class="col-md-4 none_border">
+                        <div style="margin-bottom: 12px; margin-left: 1rem;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div style="margin-bottom: 12px;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 none_border" >
+                <div class="col-md-12 none_border" style="margin:0;color:#d42222;">
+                    <p style="margin-top:25px;text-align: right;">11 West 53rd Street New York, NY 10019</p>
+                </div>
+                <div class="col-md-offset-2 col-md-10 none_border">
+                    <div style="margin-bottom: 12px;border-top: 3px solid #000;" ></div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-offset-1 col-md-3 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-7 none_border">
+                        <div style="border-top: 5px solid #000;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-5 none_border">
+                        <div style="margin-bottom: 12px;border-top: 2px solid #000;"></div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 none_border">
+                        <div style="margin-bottom: 12px;border-top: 3px solid #000;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-4 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                    <div class="col-md-7 col-md-offset-1 none_border">
+                        <div style="margin-bottom: 12px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-2  none_border">
+                        <div style="margin-bottom: 12px;border-top: 6px solid #000;width:80%;margin:0 auto;"></div>
+                    </div>
+                    <div class="col-md-3  none_border">
+                        <div style="margin-bottom: 12px;width:80%;margin:0 auto;"></div>
+                    </div>
+                    <div class="col-md-7  none_border">
+                        <div style="margin-bottom: 12px;border-top: 20px solid #000;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-5 none_border">
+                        <div style="margin-bottom: 5px;border-top: 5px solid #000;width:90%;margin:0 auto;position: relative;top:-1rem;"></div>
+                        <div style="margin-bottom: 12px;width: 30%;"></div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-2 none_border">
+                        <div style="margin-bottom: 12px; margin-left: 1rem;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 none_border">
+                    <div class="col-md-5 none_border">
+                        <div style="margin-bottom: 12px;width: 35%;"></div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 none_border">
+                        <div style="margin-bottom: 12px; margin-left: 1rem;position: relative;top:0.5rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <h2 id="mytit">MOMA</h2>
+        </div>
+        <img src="person.png" id="myimg" alt="">
+        
+    </div>
+</body>
+</html>
